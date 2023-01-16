@@ -1,0 +1,13 @@
+.btn{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+}
+h1{
+    position:center;
+}
+
+body{
+    background-color: black;
+    color: gainsboro;
+}

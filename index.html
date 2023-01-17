@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='' media='screen' href='style.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="logo.svg" class="logo" alt="" />
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="./pages/aboutme.html">About Me</a>
+        </li>
+        <li>
+          <a href="./pages/studies.html">My studies</a>
+        </li>
+        <li>
+          <a href="./pages/hobbies.html">Hobbys</a>
+        </li>
+        <li>
+          <a href="./pages/contact.html">Contacts</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.facebook.com/jacopo.pecchini/">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jacopo-pecchini-98b617213">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
